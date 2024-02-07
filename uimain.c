@@ -27,8 +27,15 @@ int main()
     case 'c':
       puts("You selected chars:");
       for (char c = 'A'; c < 'D'; c++)
-	print_char_11x16(c);
+      print_char_11x16(c);
       break;
+      
+      case 'T':
+      puts("You selected Arrow");
+      print_triangle(5,7);
+      print_square(5,5);
+      break;
+      
     case 'q':
       puts("Bye!");
       goto done; 		/* terminate */

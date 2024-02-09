@@ -33,7 +33,7 @@ int main()
       case 'T':
       puts("You selected Arrow");
       print_triangle(5,7);
-      print_square(5,5);
+      print_square(10,5);
       break;
       
     case 'q':
